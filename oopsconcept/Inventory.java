@@ -42,7 +42,16 @@ public class Inventory
 		manager.readInventory(listStock);
 		
 		System.out.println(manager.getTotalRicePrice());
+		System.out.println(manager.getTotalWheatPrice());
+		System.out.println(manager.getTotalPulsesPrice());
 		
+
+		System.out.println(manager.getTotalRiceWeight());
+		System.out.println(manager.getTotalWheatWeight());
+		System.out.println(manager.getTotalPulsesWeight());
+		
+		System.out.println("Total Inventary Value Is : "+(manager.getTotalValueRice() + manager.getTotalValueWheat() + manager.getTotalValuePulses()));
+	
 	}
 
 }
